@@ -10,6 +10,7 @@ export default function App() {
       <h1 className='titulo'>
         Estudos de react 
          <i className='fa fa-heart' ></i>
+         <h2>Isabella gatinha te amo</h2>
       </h1>
       </header>
 
