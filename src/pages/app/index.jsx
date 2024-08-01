@@ -25,13 +25,11 @@ export default function App() {
 
       <input type="text" placeholder='Digite aqui'/>
       <br /><br />
-      
-      
-      <button>Clique aqui</button>
 
       <ul>
 
     <li><Link to='/contato'>Ir para brasil</Link></li>
+    <li><Link to='/eventos'>Ir para eventos</Link></li>
 
       </ul>
     </section>
