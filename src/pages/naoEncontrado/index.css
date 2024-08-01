@@ -1,0 +1,13 @@
+
+.pagina-nao-encontrada{
+
+align-items: center;
+display: flex;
+flex-direction: column;
+
+}
+
+img{
+width: 50%;
+
+}
