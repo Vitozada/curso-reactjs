@@ -1,12 +1,12 @@
 
-import './index.css';
+import './index.scss';
 
 import {Link} from 'react-router-dom';
 
 export default function App() {
   return (
     <div className="App">
-      <h1>
+      <h1 className='titulo'>
         Estudos de react 
          <i className='fa fa-heart' ></i>
       </h1>

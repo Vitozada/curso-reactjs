@@ -1,4 +1,4 @@
-import './index.css'
+import './index.scss'
 
 import {Link} from 'react-router-dom';
 
@@ -11,7 +11,7 @@ return(
         </Link>
        
         <h1>Brasil</h1>
-        <img className='icone' src='/assets/images/Brasil.webp'/>
+        <img className='icone' src='/assets/images/Brasil.webp' alt=''/>
 
        
     </div>
