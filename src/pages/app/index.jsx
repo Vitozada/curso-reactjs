@@ -5,19 +5,38 @@ import {Link} from 'react-router-dom';
 
 export default function App() {
   return (
-    <div className="pagina-App">
+    <div className="pagina-App pagina">
+      <header className='cabecalho'>
       <h1 className='titulo'>
         Estudos de react 
          <i className='fa fa-heart' ></i>
       </h1>
+      </header>
+
+      
       <br/>
-      <h2>isabella é gatinha</h2>
-  <ul>
+    
+
+    <section className='secao'>
+
+      <h1>
+    Estudando ReactJS
+      </h1>
+
+      <input type="text" placeholder='Digite aqui'/>
+      <br /><br />
+      
+      
+      <button>Clique aqui</button>
+
+      <ul>
 
     <li><Link to='/contato'>Ir para brasil</Link></li>
 
-  </ul>
+      </ul>
+    </section>
 
+  
     </div>
   );
 }
