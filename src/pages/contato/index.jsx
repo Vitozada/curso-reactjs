@@ -10,7 +10,7 @@ return(
         <i className='fa fa-arrow-left voltar'></i>
         </Link>
        
-        <h1>Brasil</h1>
+        <h1 className='titulo'>Brasil</h1>
         <img className='icone' src='/assets/images/Brasil.webp' alt=''/>
 
        
